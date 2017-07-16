@@ -8,6 +8,15 @@ function FifteenPuzzleGame(gameWidth) {
     }
     this.ZeroTileIndex = 0;
 }
+FifteenPuzzleGame.prototype.getTileIndex = function(tileNumber) {
+	for(var i = 0; i < this.Tiles.length; i++) {
+		if(this.Tiles[i].Tile.getAttribute('data-num') == tileNumber) {
+			return i;
+		}
+	}
+	return;
+	
+}
 
 FifteenPuzzleGame.prototype.randomizeTiles = function() {
     this.shuffle();
@@ -191,7 +200,7 @@ GameTile.prototype.generateDiv = function(size, left, top) {
         div.id = "tile"+this.Number;
     }
 	div.onclick = function() {
-		clickMove(num);
+		clickMove(g.getTileIndex(num));
 	};
 }
 GameTile.prototype.updatePosition = function() {
