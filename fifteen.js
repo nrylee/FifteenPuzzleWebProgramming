@@ -176,6 +176,7 @@ GameTile.prototype.generateDiv = function(size, left, top) {
     this.Left = parseInt(left);
     this.Size = parseInt(size);
     var div = document.createElement('div');
+	var num = this.Number;
     this.Tile = div;    
     div.classList.add('game-tile');
     div.setAttribute('data-num', this.Number);
@@ -189,6 +190,9 @@ GameTile.prototype.generateDiv = function(size, left, top) {
         div.innerHTML = this.Number;
         div.id = "tile"+this.Number;
     }
+	div.onclick = function() {
+		clickMove(num);
+	};
 }
 GameTile.prototype.updatePosition = function() {
     this.Tile.style.left = (this.Size*this.Left) + 'px';
@@ -266,10 +270,26 @@ GameClock.prototype.totalTimeString = function() {
     return str;
 }
 
+function clickMove(tileIndex) {
+	if(g.ZeroTileIndex+1 == tileIndex) {
+		g.moveRight();
+	}
+	if(g.ZeroTileIndex+g.Width == tileIndex) {
+		g.moveDown();
+	}
+	if(g.ZeroTileIndex-g.Width == tileIndex) {
+		g.moveUp();
+	}
+	if(g.ZeroTileIndex-1 == tileIndex) {
+		g.moveLeft();
+	}
+	
+}
 
+var g;
 window.addEventListener('load', function() {
     var width = 4;
-    var g = new FifteenPuzzleGame(width);
+    g = new FifteenPuzzleGame(width);
     g.buildBoard(width*100);
 
     document.getElementById('btnShuffle').addEventListener('click', function() {
