@@ -1,0 +1,155 @@
+#gameBoard.board-width-6 {
+    border-color:black;
+    background-color: lightblack;
+}
+
+.board-width-6 > .game-tile {
+    border-color: blue;
+    color: blue;
+    background-color: #ffdddd;
+}
+
+.board-width-6 > #tile1 {
+    background-image: url('superman.jpg');
+    background-position: 0px 0px;
+}
+.board-width-6 > #tile2 {
+    background-image: url('superman.jpg');
+    background-position: -100px 0px;
+}
+.board-width-6 > #tile3 {
+    background-image: url('superman.jpg');
+    background-position: -200px 0px;
+}
+.board-width-6 > #tile4 {
+    background-image: url('superman.jpg');
+    background-position: -300px 0px;
+}
+.board-width-6 > #tile5 {
+    background-image: url('superman.jpg');
+    background-position: -400px 0px ;
+}
+.board-width-6 > #tile6 {
+    background-image: url('superman.jpg');
+    background-position: -500px 0px;
+}
+.board-width-6 > #tile7 {
+    background-image: url('superman.jpg');
+    background-position: 0px -100px;
+}
+.board-width-6 > #tile8 {
+    background-image: url('superman.jpg');
+    background-position: -100px -100px;
+}
+.board-width-6 > #tile9 {
+    background-image: url('superman.jpg');
+    background-position: -200px -100px;
+}
+.board-width-6 > #tile10 {
+    background-image: url('superman.jpg');
+    background-position: -300px -100px;
+}
+.board-width-6 > #tile11 {
+    background-image: url('superman.jpg');
+    background-position: -400px -100px;
+}
+.board-width-6 > #tile12 {
+    background-image: url('superman.jpg');
+    background-position: -500px -100px;
+}
+.board-width-6 > #tile13 {
+    background-image: url('superman.jpg');
+    background-position: 0px -200px;
+}
+.board-width-6 > #tile14 {
+    background-image: url('superman.jpg');
+    background-position: -100px -200px;
+}
+.board-width-6 > #tile15 {
+    background-image: url('superman.jpg');
+    background-position: -200px -200px;
+}
+.board-width-6 > #tile16 {
+    background-image: url('superman.jpg');
+    background-position: -300px -200px;
+}
+.board-width-6 > #tile17 {
+    background-image: url('superman.jpg');
+    background-position: -400px -200px;
+}
+.board-width-6 > #tile18 {
+    background-image: url('superman.jpg');
+    background-position: -500px -200px;
+}
+.board-width-6 > #tile19 {
+    background-image: url('superman.jpg');
+    background-position: 0px -300px;
+}
+.board-width-6 > #tile20 {
+    background-image: url('superman.jpg');
+    background-position: -100px -300px;
+}
+.board-width-6 > #tile21 {
+    background-image: url('superman.jpg');
+    background-position: -200px -300px;
+}
+.board-width-6 > #tile22 {
+    background-image: url('superman.jpg');
+    background-position: -300px -300px;
+}
+.board-width-6 > #tile23 {
+    background-image: url('superman.jpg');
+    background-position: -400px -300px;
+}
+.board-width-6 > #tile24 {
+    background-image: url('superman.jpg');
+    background-position: -500px -300px;
+}
+.board-width-6 > #tile25 {
+    background-image: url('superman.jpg');
+    background-position: 0px -400px;
+}
+.board-width-6 > #tile26 {
+    background-image: url('superman.jpg');
+    background-position: -100px -400px;
+}
+.board-width-6 > #tile27 {
+    background-image: url('superman.jpg');
+    background-position: -200px -400px;
+}
+.board-width-6 > #tile28 {
+    background-image: url('superman.jpg');
+    background-position: -300px -400px;
+}
+.board-width-6 > #tile29 {
+    background-image: url('superman.jpg');
+    background-position: -400px -400px;
+}
+.board-width-6 > #tile30 {
+    background-image: url('superman.jpg');
+    background-position: -500px -400px;
+}
+.board-width-6 > #tile31 {
+    background-image: url('superman.jpg');
+    background-position: 0px -500px;
+}
+.board-width-6 > #tile32 {
+    background-image: url('superman.jpg');
+    background-position: -100px -500px;
+}
+.board-width-6 > #tile33 {
+    background-image: url('superman.jpg');
+    background-position: -200px -500px;
+}
+.board-width-6 > #tile34 {
+    background-image: url('superman.jpg');
+    background-position: -300px -500px;
+}
+.board-width-6 > #tile35 {
+    background-image: url('superman.jpg');
+    background-position: -400px -500px;
+}
+.board-width-6 > #blankTile.game-tile.game-won {
+    background-image: url('superman.jpg');
+    background-position: -500px -500px;
+}

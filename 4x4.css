@@ -1,0 +1,74 @@
+#gameBoard.board-width-4 {
+    border-color:black;
+    background-color: grey;
+}
+
+.board-width-4 > .game-tile {
+    border-color: red;
+    color: red;
+    background-color: #ffdddd;
+}
+.board-width-4 > #tile1 {
+    background-image: url('wwlogo.jpg');
+    background-position: 0px -0px;
+}
+.board-width-4 > #tile2 {
+    background-image: url('wwlogo.jpg');
+    background-position: -100px -0px;
+}
+.board-width-4 > #tile3 {
+    background-image: url('wwlogo.jpg');
+    background-position: -200px -0px;
+}
+.board-width-4 > #tile4 {
+    background-image: url('wwlogo.jpg');
+    background-position: -300px -0px;
+}
+.board-width-4 > #tile5 {
+    background-image: url('wwlogo.jpg');
+    background-position: 0px -100px ;
+}
+.board-width-4 > #tile6 {
+    background-image: url('wwlogo.jpg');
+    background-position: -100px -100px;
+}
+.board-width-4 > #tile7 {
+    background-image: url('wwlogo.jpg');
+    background-position: -200px -100px;
+}
+.board-width-4 > #tile8 {
+    background-image: url('wwlogo.jpg');
+    background-position: -300px -100px;
+}
+.board-width-4 > #tile9 {
+    background-image: url('wwlogo.jpg');
+    background-position: 0px -200px;
+}
+.board-width-4 > #tile10 {
+    background-image: url('wwlogo.jpg');
+    background-position: -100px -200px;
+}
+.board-width-4 > #tile11 {
+    background-image: url('wwlogo.jpg');
+    background-position: -200px -200px;
+}
+.board-width-4 > #tile12 {
+    background-image: url('wwlogo.jpg');
+    background-position: -300px -200px;
+}
+.board-width-4 > #tile13 {
+    background-image: url('wwlogo.jpg');
+    background-position: 0px -300px;
+}
+.board-width-4 > #tile14 {
+    background-image: url('wwlogo.jpg');
+    background-position: -100px -300px;
+}
+.board-width-4 > #tile15 {
+    background-image: url('wwlogo.jpg');
+    background-position: -200px -300px;
+}
+.board-width-4 > #blankTile.game-tile.game-won {
+    background-image: url('wwlogo.jpg');
+    background-position: -300px -300px;
+}

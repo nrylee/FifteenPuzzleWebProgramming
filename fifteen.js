@@ -102,6 +102,8 @@ FifteenPuzzleGame.prototype.evaluateWin = function () {
                 this.Tiles[i].Tile.style.lineHeight =
                 this.Tiles[i].Size + 'px';
             this.Tiles[i].Tile.style.borderRadius = '0px';
+            this.Tiles[i].Tile.innerHTML = '';
+            this.Tiles[i].Tile.classList.add('game-won');
         }
         this.Enabled = false;
         var msgBox = document.getElementById('playerMessage');
