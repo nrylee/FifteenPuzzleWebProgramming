@@ -1,42 +1,44 @@
 #gameBoard.board-width-3 {
-    border-color:red;
+    border: 2px red solid;
     background-color: lightcoral;
 }
 
 .board-width-3 > .game-tile {
-    border-color: red;
+    border: 2px red solid;
     color: red;
+    font-size: 32pt;
+    font-family: sans-serif;
     background-color: #ffdddd;
 }
 .board-width-3 > #tile1 {
     background-image: url('mario.jpg');
-    background-position: left top;
+    background-position: 0px 0px;
 }
 .board-width-3 > #tile2 {
     background-image: url('mario.jpg');
-    background-position: center top;
+    background-position: -100px 0px;
 }
 .board-width-3 > #tile3 {
     background-image: url('mario.jpg');
-    background-position: right top;
+    background-position: -200px 0px;
 }
 .board-width-3 > #tile4 {
     background-image: url('mario.jpg');
-    background-position: left center;
+    background-position: 0px -100px;
 }
 .board-width-3 > #tile5 {
     background-image: url('mario.jpg');
-    background-position: center center;
+    background-position: -100px -100px;
 }
 .board-width-3 > #tile6 {
     background-image: url('mario.jpg');
-    background-position: right center;
+    background-position: -200px -100px;
 }
 .board-width-3 > #tile7 {
     background-image: url('mario.jpg');
-    background-position: left bottom;
+    background-position: 0px -200px;
 }
 .board-width-3 > #tile8 {
     background-image: url('mario.jpg');
-    background-position: center bottom;
+    background-position: -100px -200px;
 }

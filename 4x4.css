@@ -1,12 +1,15 @@
 #gameBoard.board-width-4 {
-    border-color:black;
+    border: 2px black solid;
     background-color: grey;
 }
 
 .board-width-4 > .game-tile {
-    border-color: red;
+    border: 2px red solid;
     color: red;
+    font-size: 32pt; 
+    font-family: sans-serif;
     background-color: #ffdddd;
+
 }
 .board-width-4 > #tile1 {
     background-image: url('wwlogo.jpg');

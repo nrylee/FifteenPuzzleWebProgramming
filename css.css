@@ -16,6 +16,14 @@ button {
     padding: 20px;
     font-family: Verdana; 
 }
+
+#playerMessage {
+    text-align: center;
+    color: red; 
+    font-size: 25px; 
+    font-weight: bold; 
+}
+
 .game-tile {
     display: block;
     width:96px;

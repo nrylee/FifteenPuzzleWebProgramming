@@ -1,11 +1,13 @@
 #gameBoard.board-width-5 {
-    border-color: black;
+    border: 2px black solid;
     background-color: lightblue;
 }
 
 .board-width-5 > .game-tile {
-    border-color: black;
+    border: 2px black solid;
     color: black;
+    font-size: 32pt; 
+    font-family: sans-serif;
     background-color: #ffdddd;
 }
 
