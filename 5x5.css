@@ -1,0 +1,107 @@
+#gameBoard.board-width-5 {
+    border-color: black;
+    background-color: lightblue;
+}
+
+.board-width-5 > .game-tile {
+    border-color: black;
+    color: black;
+    background-color: #ffdddd;
+}
+
+.board-width-5 > #tile1 {
+    background-image: url('minion.jpg');
+    background-position: 0px 0px;
+}
+.board-width-5 > #tile2 {
+    background-image: url('minion.jpg');
+    background-position: -100px 0px;
+}
+.board-width-5 > #tile3 {
+    background-image: url('minion.jpg');
+    background-position: -200px 0px;
+}
+.board-width-5 > #tile4 {
+    background-image: url('minion.jpg');
+    background-position: -300px 0px;
+}
+.board-width-5 > #tile5 {
+    background-image: url('minion.jpg');
+    background-position: -400px 0px ;
+}
+.board-width-5 > #tile6 {
+    background-image: url('minion.jpg');
+    background-position: 0px -100px;
+}
+.board-width-5 > #tile7 {
+    background-image: url('minion.jpg');
+    background-position: -100px -100px;
+}
+.board-width-5 > #tile8 {
+    background-image: url('minion.jpg');
+    background-position: -200px -100px;
+}
+.board-width-5 > #tile9 {
+    background-image: url('minion.jpg');
+    background-position: -300px -100px;
+}
+.board-width-5 > #tile10 {
+    background-image: url('minion.jpg');
+    background-position: -400px -100px;
+}
+.board-width-5 > #tile11 {
+    background-image: url('minion.jpg');
+    background-position: 0px -200px;
+}
+.board-width-5 > #tile12 {
+    background-image: url('minion.jpg');
+    background-position: -100px -200px;
+}
+.board-width-5 > #tile13 {
+    background-image: url('minion.jpg');
+    background-position: -200px -200px;
+}
+.board-width-5 > #tile14 {
+    background-image: url('minion.jpg');
+    background-position: -300px -200px;
+}
+.board-width-5 > #tile15 {
+    background-image: url('minion.jpg');
+    background-position: -400px -200px;
+}
+.board-width-5 > #tile16 {
+    background-image: url('minion.jpg');
+    background-position: 0px -300px;
+}
+.board-width-5 > #tile17 {
+    background-image: url('minion.jpg');
+    background-position: -100px -300px;
+}
+.board-width-5 > #tile18 {
+    background-image: url('minion.jpg');
+    background-position: -200px -300px;
+}
+.board-width-5 > #tile19 {
+    background-image: url('minion.jpg');
+    background-position: -300px -300px;
+}
+.board-width-5 > #tile20 {
+    background-image: url('minion.jpg');
+    background-position: -400px -300px;
+}
+.board-width-5 > #tile21 {
+    background-image: url('minion.jpg');
+    background-position: 0px -400px;
+}
+.board-width-5 > #tile22 {
+    background-image: url('minion.jpg');
+    background-position: -100px -400px;
+}
+.board-width-5 > #tile23 {
+    background-image: url('minion.jpg');
+    background-position: -200px -400px;
+}
+.board-width-5 > #tile24 {
+    background-image: url('minion.jpg');
+    background-position: -300px -400px;
+}

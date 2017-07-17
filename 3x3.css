@@ -9,34 +9,34 @@
     background-color: #ffdddd;
 }
 .board-width-3 > #tile1 {
-    background-image: url('');
-    background-position: center center;
+    background-image: url('mario.jpg');
+    background-position: left top;
 }
 .board-width-3 > #tile2 {
-    background-image: url('');
-    background-position: center center;
+    background-image: url('mario.jpg');
+    background-position: center top;
 }
 .board-width-3 > #tile3 {
-    background-image: url('');
-    background-position: center center;
+    background-image: url('mario.jpg');
+    background-position: right top;
 }
 .board-width-3 > #tile4 {
-    background-image: url('');
-    background-position: center center;
+    background-image: url('mario.jpg');
+    background-position: left center;
 }
 .board-width-3 > #tile5 {
-    background-image: url('');
+    background-image: url('mario.jpg');
     background-position: center center;
 }
 .board-width-3 > #tile6 {
-    background-image: url('');
-    background-position: center center;
+    background-image: url('mario.jpg');
+    background-position: right center;
 }
 .board-width-3 > #tile7 {
-    background-image: url('');
-    background-position: center center;
+    background-image: url('mario.jpg');
+    background-position: left bottom;
 }
 .board-width-3 > #tile8 {
-    background-image: url('');
-    background-position: center center;
+    background-image: url('mario.jpg');
+    background-position: center bottom;
 }
